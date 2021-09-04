@@ -5,15 +5,15 @@ int main()
     double currentprice;
     int miles;
     double cost;
-    double usedgallen;
+    double usedgallon;
     
-    printf("Please enter the current price of gas per gallen?");
+    printf("Please enter the current price of gas per gallon?");
     scanf("%lf", &currentprice);
     printf("Enter number of miles travelled in the trip");
     scanf("%d", &miles);
-    usedgallen = miles/23;
-    printf("Total usedgallen in the trip = %lf",usedgallen);
+    usedgallon = miles/23;
+    printf("Total usedgallon in the trip = %lf",usedgallon);
     printf("\n");
-    cost = usedgallen * currentprice;
+    cost = usedgallon * currentprice;
     printf("Total cost in the trip = %lf",cost);
 }
